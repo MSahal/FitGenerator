@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+      <methode type="update">
+         <name>update</name>
+      </methode>
+      <methode type="create">
+         <name>create</name>
+      </methode>
+	    <methode type="create">
+         <name>createContractWithDefaultCalculationMethod</name>
+      </methode>
+	  
+	    <methode type="update">
+         <name>updateContractWithDefaultCalculationMethod</name>
+      </methode>
+	    <methode type="delete">
+         <name>deleteContractWithDefaultCalculationMethod</name>
+      </methode>
+	  
+	   <methode type="create">
+         <name>createPersonalLoanContract</name>
+      </methode>
+	   <methode type="delete">
+         <name>deletePersonalLoanContract</name>
+      </methode>
+	   <methode type="update">
+         <name>updatePersonalLoanContract</name>
+      </methode>    
+	<methode type="create">
+         <name>createWithScale</name>
+      </methode>
+	  <methode type="update">
+         <name>updateWithScale</name>
+      </methode>
+	  <methode type="delete">
+         <name>deleteWithScale</name>
+      </methode>
+     <methode type="create">
+         <name>createVehicle</name>
+      </methode>
+	    <methode type="delete">
+         <name>deleteVehicle</name>
+      </methode>
+	    <methode type="update">
+         <name>updateVehicle</name>
+      </methode>
+	  
+
+      <methode type="delete">
+         <name>delete</name>
+      </methode>
+	
+      <methode type="find">
+         <name>find</name>
+      </methode>
+	  
+	   <methode type="find">
+         <name>getParties</name>
+      </methode>
+	  
+	  <methode type="find">
+         <name>getPartiesByRole</name>
+      </methode>
+	  
+	  <methode type="find">
+         <name>getPartyGuaranties</name>
+      </methode>
+	  
+	  <methode type="find">
+         <name>findLinkedContractsByAsset</name>
+      </methode>
+	  
+	   <methode type="find">
+         <name>findVehicle</name>
+
+
+      </methode>
+     <methode type="find">
+         <name>getService</name>
+
+
+      </methode>  
+	  
+	    <methode type="find">
+         <name>getAssetByElement</name>
+
+
+      </methode>  
+       <methode type="find" >
+         <name>getServices</name>
+
+
+      </methode>  
+	  
+	   <methode type="find" >
+         <name>findVehicle</name>
+
+
+      </methode>  
+	
+
+ 
+
+</service>
+
+   
